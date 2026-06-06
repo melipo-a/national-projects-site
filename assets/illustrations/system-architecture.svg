@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Architecture of national projects</title>
+  <desc id="desc">A detailed building-section illustration of national goals, projects, measures, regions, and results.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#edf8ff"/>
+      <stop offset="1" stop-color="#f4fff8"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#17324d" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="760" rx="42" fill="url(#bg)"/>
+  <path d="M110 640 h880" stroke="#c8dae4" stroke-width="12" stroke-linecap="round"/>
+  <g filter="url(#s)">
+    <path d="M550 82 L938 640 H162z" fill="#fff"/>
+    <path d="M550 82 L938 640 H162z" fill="none" stroke="#d6e5eb" stroke-width="4"/>
+    <path d="M314 418 h472 M254 506 h592 M205 584 h690 M370 338 h360 M430 252 h240" stroke="#d6e5eb" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="450" y="138" width="200" height="68" rx="20" fill="#1769d2"/>
+    <rect x="392" y="258" width="316" height="68" rx="20" fill="#20a675"/>
+    <rect x="330" y="354" width="440" height="68" rx="20" fill="#1c9aaa"/>
+    <rect x="270" y="450" width="560" height="68" rx="20" fill="#f0a52b"/>
+    <rect x="218" y="532" width="664" height="68" rx="20" fill="#6b65b8"/>
+    <rect x="178" y="610" width="744" height="52" rx="18" fill="#d9574f"/>
+  </g>
+  <g fill="#fff" font-family="Arial" font-size="24" font-weight="700">
+    <text x="486" y="181">цели</text>
+    <text x="438" y="301">нацпроекты</text>
+    <text x="396" y="397">федеральные проекты</text>
+    <text x="486" y="493">меры</text>
+    <text x="416" y="575">региональная реализация</text>
+    <text x="482" y="644">результат</text>
+  </g>
+  <g filter="url(#s)">
+    <rect x="78" y="206" width="172" height="150" rx="26" fill="#fff"/>
+    <circle cx="136" cy="270" r="28" fill="#1769d2"/>
+    <path d="M126 270 l9 11 20-26" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="178" y="238" width="42" height="84" fill="#edf7ff"/>
+    <path d="M94 330 h132" stroke="#17324d" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="850" y="240" width="178" height="162" rx="26" fill="#fff"/>
+    <rect x="886" y="310" width="36" height="60" fill="#20a675"/>
+    <rect x="934" y="282" width="38" height="88" fill="#f0a52b"/>
+    <path d="M878 370 h118" stroke="#17324d" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="930" cy="260" r="20" fill="#d9574f"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="424" y="664" width="252" height="54" rx="20" fill="#fff"/>
+    <circle cx="472" cy="691" r="16" fill="#20a675"/>
+    <circle cx="516" cy="691" r="16" fill="#1769d2"/>
+    <rect x="556" y="680" width="84" height="20" rx="10" fill="#d7e8f2"/>
+  </g>
+  <g stroke="#17324d" stroke-width="5" stroke-linecap="round" opacity=".32">
+    <path d="M250 282 C330 214 388 204 452 178"/>
+    <path d="M852 326 C782 310 744 296 708 292"/>
+    <path d="M676 692 C768 676 854 656 922 636"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Старшее поколение, парк и активное долголетие">
+  <rect width="720" height="420" fill="#eef8ff"/>
+  <path d="M0 306c82-35 165-34 248-9 123 38 249 37 472-26v149H0Z" fill="#d7eadf"/>
+  <circle cx="128" cy="226" r="54" fill="#20a675"/>
+  <rect x="116" y="226" width="24" height="104" rx="12" fill="#176d50"/>
+  <circle cx="592" cy="220" r="48" fill="#20a675"/>
+  <rect x="582" y="220" width="20" height="104" rx="10" fill="#176d50"/>
+  <g fill="#17324d">
+    <circle cx="324" cy="238" r="25"/>
+    <rect x="299" y="263" width="50" height="80" rx="25"/>
+    <circle cx="394" cy="246" r="22"/>
+    <rect x="372" y="268" width="44" height="70" rx="22"/>
+  </g>
+  <path d="M238 342c96-18 174-18 248 0" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-dasharray="34 22"/>
+  <rect x="250" y="112" width="222" height="76" rx="18" fill="#ffffff"/>
+  <path d="M282 150h158" stroke="#1769d2" stroke-width="14" stroke-linecap="round"/>
+  <rect width="720" height="420" fill="#0b1f35" opacity=".05"/>
+</svg>

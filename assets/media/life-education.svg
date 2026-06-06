@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Школа, колледж и образовательная среда">
+  <rect width="720" height="420" fill="#e8f3ff"/>
+  <path d="M0 328c118-36 242-31 363-4 112 25 211 22 357-26v122H0Z" fill="#d6e9f7"/>
+  <rect x="96" y="118" width="226" height="178" rx="18" fill="#ffffff"/>
+  <path d="M96 118h226v58H96Z" fill="#1769d2"/>
+  <rect x="128" y="202" width="48" height="44" rx="8" fill="#dceef7"/>
+  <rect x="196" y="202" width="48" height="44" rx="8" fill="#dceef7"/>
+  <rect x="264" y="202" width="34" height="94" rx="8" fill="#17324d"/>
+  <path d="M406 174h168v112H406z" fill="#17324d"/>
+  <path d="M430 205h118M430 236h86" stroke="#8fd1ff" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="490" cy="318" r="24" fill="#f0a52b"/>
+  <rect x="466" y="342" width="48" height="56" rx="24" fill="#17324d"/>
+  <rect width="720" height="420" fill="#0b1f35" opacity=".05"/>
+</svg>

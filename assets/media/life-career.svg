@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Профессия, рабочее место и производственная среда">
+  <rect width="720" height="420" fill="#fff3d6"/>
+  <path d="M0 326c104-31 194-28 282-8 132 30 239 25 438-35v137H0Z" fill="#eadfc6"/>
+  <rect x="92" y="168" width="248" height="130" rx="14" fill="#ffffff"/>
+  <path d="M92 168h66v-58l64 58h44v-42l74 42v130H92Z" fill="#f0a52b"/>
+  <rect x="126" y="216" width="50" height="42" rx="8" fill="#ffffff" opacity=".88"/>
+  <rect x="198" y="216" width="50" height="42" rx="8" fill="#ffffff" opacity=".88"/>
+  <rect x="410" y="96" width="178" height="214" rx="18" fill="#ffffff"/>
+  <rect x="438" y="130" width="96" height="14" rx="7" fill="#17324d"/>
+  <rect x="438" y="174" width="36" height="84" rx="8" fill="#20a675"/>
+  <rect x="490" y="206" width="36" height="52" rx="8" fill="#1769d2"/>
+  <circle cx="564" cy="316" r="24" fill="#17324d"/>
+  <rect x="540" y="340" width="48" height="58" rx="24" fill="#17324d"/>
+  <rect width="720" height="420" fill="#0b1f35" opacity=".05"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-label="Технологический суверенитет, промышленность, космос и беспилотные системы">
+  <rect width="960" height="560" fill="#eceeff"/>
+  <path d="M0 416c132-43 250-40 370-10 126 32 250 28 410-28 70-25 132-27 180-10v192H0Z" fill="#e7eaf7"/>
+  <rect x="88" y="292" width="354" height="130" rx="16" fill="#ffffff"/>
+  <path d="M88 292h72v-64l82 64h58v-82l88 82h54v130H88Z" fill="#6b65b8"/>
+  <rect x="132" y="334" width="66" height="48" rx="8" fill="#ffffff" opacity=".88"/>
+  <rect x="224" y="334" width="66" height="48" rx="8" fill="#ffffff" opacity=".88"/>
+  <path d="M610 84c36 72 32 136 8 204l52-28 44 62 24-72 70-24-62-44 28-52c-68 24-132 28-204-8Z" fill="#1769d2"/>
+  <circle cx="690" cy="156" r="24" fill="#ffffff"/>
+  <path d="M566 342h170M650 274v150M604 304l92 92M696 304l-92 92" stroke="#17324d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="812" cy="110" r="34" fill="#f0a52b"/>
+  <rect width="960" height="560" fill="#0b1f35" opacity=".06"/>
+</svg>

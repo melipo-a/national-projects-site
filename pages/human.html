@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Национальные проекты в жизни человека</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="На главную">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-text">Национальные<br>проекты</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="system.html">Система</a>
+      <a href="projects.html">Проекты</a>
+      <a class="active" href="human.html">Жизнь</a>
+      <a href="economy-regions.html">Регионы</a>
+      <a href="data-sources.html">Данные</a>
+    </nav>
+    <a class="header-action" href="data-sources.html">Проверить данные</a>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Жизнь человека</p>
+        <h1>Проекты видны через обычные ситуации</h1>
+        <p class="lead">Семья, образование, профессия, здоровье и городская среда помогают понять, где человек может заметить проекты в обычной жизни.</p>
+        <div class="tag-row"><span>семья</span><span>учеба</span><span>здоровье</span><span>город</span></div>
+      </div>
+      <figure class="media-frame hero-media">
+        <img class="media-img" src="../assets/images/life-family.jpg" data-file="../assets/images/life-family.jpg" alt="Семья и городская среда">
+      </figure>
+    </section>
+
+    <section class="section utility-panel">
+      <div class="section-head">
+        <p class="eyebrow">Что здесь можно узнать</p>
+        <h2>Связь проектов с повседневными ситуациями</h2>
+      </div>
+      <div class="utility-grid">
+        <article><strong>Какие проекты связаны с жизнью</strong><p>Семья, образование, кадры, здоровье и инфраструктура показаны через жизненный маршрут.</p></article>
+        <article><strong>Что человек может заметить</strong><p>Школу, поликлинику, транспорт, двор, поддержку семьи, обучение или новую профессию.</p></article>
+        <article><strong>Где искать подтверждение</strong><p>В официальных карточках проектов, региональных материалах и источниках на странице данных.</p></article>
+      </div>
+    </section>
+
+    <section class="section route-section" data-life-route>
+      <div class="route-tabs" aria-label="Этапы жизни">
+        <button class="is-active" type="button" data-life-title="Семья" data-life-projects="Семья" data-life-image="../assets/images/family-support-service.jpg" data-life-text="Поддержка семьи, детства и связи поколений становится понятнее через конкретные меры и сервисы." data-life-verify="Проверять: официальный портал проектов и региональные меры поддержки.">Семья</button>
+        <button type="button" data-life-title="Образование" data-life-projects="Молодёжь и дети" data-life-image="../assets/images/youth-children.jpg" data-life-text="Школа, колледж, университет и наставничество связывают личный выбор с возможностями развития." data-life-verify="Проверять: карточки проекта, материалы об образовательной инфраструктуре и региональные новости.">Образование</button>
+        <button type="button" data-life-title="Профессия" data-life-projects="Кадры; экономика" data-life-image="../assets/images/life-career.jpg" data-life-text="Навыки, переобучение и рабочие места показывают связь человека с экономикой." data-life-verify="Проверять: материалы о проекте “Кадры”, рынке труда и мерах поддержки занятости.">Профессия</button>
+        <button type="button" data-life-title="Здоровье" data-life-projects="Продолжительная и активная жизнь" data-life-image="../assets/images/health-technology-lab.jpg" data-life-text="Профилактика, первичное звено и реабилитация помогают увидеть практический смысл проекта." data-life-verify="Проверять: официальные материалы проекта и региональные данные здравоохранения.">Здоровье</button>
+        <button type="button" data-life-title="Городская среда" data-life-projects="Инфраструктура для жизни" data-life-image="../assets/images/life-comfort-city.jpg" data-life-text="Двор, улица, транспорт и общественные пространства делают проекты заметными каждый день." data-life-verify="Проверять: региональные программы, паспорт проекта и муниципальные материалы.">Городская среда</button>
+      </div>
+
+      <article class="route-card">
+        <img class="media-img" data-life-image-output src="../assets/images/family-support-service.jpg" data-file="../assets/images/family-support-service.jpg" alt="">
+        <div>
+          <span>выбранный этап</span>
+          <h2 data-life-heading>Семья</h2>
+          <p data-life-copy>Поддержка семьи, детства и связи поколений становится понятнее через конкретные меры и сервисы.</p>
+          <p><strong>Связанные проекты:</strong> <span data-life-projects-output>Семья</span></p>
+          <small data-life-verify-output>Проверять: официальный портал проектов и региональные меры поддержки.</small>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">Выберите жизненную ситуацию</p>
+        <h2>Найдите связанные проекты и место проверки</h2>
+        <p>Блок не обещает конкретную услугу. Он показывает, какие проекты связаны с вопросом и где искать официальное подтверждение.</p>
+      </div>
+      <div class="quiz-layout" data-human-quiz>
+        <div class="quiz-options">
+          <button class="is-active" type="button" data-human-target="family">Семья и поддержка</button>
+          <button type="button" data-human-target="education">Образование</button>
+          <button type="button" data-human-target="career">Профессия и навыки</button>
+          <button type="button" data-human-target="health">Здоровье</button>
+          <button type="button" data-human-target="city">Комфортный город</button>
+          <button type="button" data-human-target="senior">Старшее поколение</button>
+        </div>
+        <aside class="quiz-result">
+          <span>что проверить</span>
+          <h3 data-human-quiz-title>Семья и поддержка</h3>
+          <p><strong>Связанные проекты:</strong> <span data-human-quiz-projects>Семья; Молодёжь и дети</span></p>
+          <p><strong>Что можно заметить:</strong> <span data-human-quiz-text>меры поддержки семей, инфраструктуру для детей, образовательные возможности.</span></p>
+          <p><strong>Где проверить:</strong> <span data-human-quiz-verify>официальный портал нацпроектов и материалы Правительства РФ.</span></p>
+          <a class="button primary" data-human-quiz-link href="data-sources.html">Проверить источники</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section story-strip">
+      <article><img class="media-img" src="../assets/images/project-school.jpg" data-file="../assets/images/project-school.jpg" alt=""><h3>Школа</h3><p>пример направления: современная образовательная среда</p></article>
+      <article><img class="media-img" src="../assets/images/active-senior-life.jpg" data-file="../assets/images/active-senior-life.jpg" alt=""><h3>Спорт и здоровье</h3><p>пример направления: активная жизнь</p></article>
+      <article><img class="media-img" src="../assets/images/city-transport.jpg" data-file="../assets/images/city-transport.jpg" alt=""><h3>Двор и транспорт</h3><p>пример направления: комфортная среда</p></article>
+      <article><img class="media-img" src="../assets/images/economy-business.jpg" data-file="../assets/images/economy-business.jpg" alt=""><h3>Работа</h3><p>пример направления: навыки и занятость</p></article>
+    </section>
+
+    <section class="section note-panel">
+      <h2>78 лет к 2030 году и 81 год к 2036 году</h2>
+      <p>Этот ориентир по продолжительности жизни помогает понять, почему здоровье и активное долголетие связаны с общей системой целей.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Маршрут показывает социальный блок через повседневные ситуации.</p>
+    <a href="data-sources.html">Источники</a>
+  </footer>
+</body>
+</html>

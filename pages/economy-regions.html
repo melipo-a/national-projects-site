@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регионы и экономика</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="На главную">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-text">Национальные<br>проекты</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="system.html">Система</a>
+      <a href="projects.html">Проекты</a>
+      <a href="human.html">Жизнь</a>
+      <a class="active" href="economy-regions.html">Регионы</a>
+      <a href="data-sources.html">Данные</a>
+    </nav>
+    <a class="header-action" href="data-sources.html">Проверить данные</a>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Регионы и экономика</p>
+        <h1>Развитие видно на карте страны</h1>
+        <p class="lead">Здесь можно увидеть, как транспорт, промышленность, агросектор, технологии и экология связаны с качеством жизни в регионах.</p>
+      </div>
+      <figure class="media-frame hero-media">
+        <img class="media-img" src="../assets/images/life-comfort-city.jpg" data-file="../assets/images/life-comfort-city.jpg" alt="Комфортная городская среда">
+      </figure>
+    </section>
+
+    <section class="section utility-panel">
+      <div class="section-head">
+        <p class="eyebrow">Что здесь можно узнать</p>
+        <h2>Как экономика становится видимой для человека</h2>
+      </div>
+      <div class="utility-grid">
+        <article><strong>Как связаны отрасли</strong><p>Транспорт, производство, экспорт, данные и технологии работают как одна цепочка.</p></article>
+        <article><strong>Как смотреть региональные примеры</strong><p>Выберите регион и посмотрите демонстрационную связку направления, проекта и эффекта.</p></article>
+        <article><strong>Почему это про качество жизни</strong><p>Экономика дает рабочие места, дороги, сервисы, туризм и устойчивую городскую среду.</p></article>
+      </div>
+    </section>
+
+    <section class="section layer-dashboard" data-economy-layers>
+      <div class="section-head">
+        <p class="eyebrow">Слои развития</p>
+        <h2>Переключите тему</h2>
+        <p>Слои показывают, что региональное развитие нельзя свести к одной отрасли.</p>
+      </div>
+      <div class="layer-tabs" aria-label="Слои развития">
+        <button class="is-active" type="button" data-economy-layer="regions">Регионы</button>
+        <button type="button" data-economy-layer="transport">Транспорт</button>
+        <button type="button" data-economy-layer="economy">Экономика</button>
+        <button type="button" data-economy-layer="tech">Технологии</button>
+        <button type="button" data-economy-layer="ecology">Экология</button>
+      </div>
+      <article class="layer-card">
+        <img class="media-img" data-layer-image src="../assets/images/russia-map-interface.jpg" data-file="../assets/images/russia-map-interface.jpg" alt="">
+        <div>
+          <span data-layer-label>Регионы</span>
+          <h2 data-layer-title>Территории и качество жизни</h2>
+          <p data-layer-text>Развитие региона видно через среду, услуги, дороги, туризм и рабочие места.</p>
+          <div class="tag-row" data-layer-tags><span>инфраструктура</span><span>туризм</span><span>среда</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section region-picker">
+      <div class="section-head">
+        <p class="eyebrow">Выбор региона</p>
+        <h2>Посмотрите демонстрационную связку направлений</h2>
+        <p>Это не официальный рейтинг регионов, а способ увидеть, какие темы можно проверить в региональных и федеральных источниках.</p>
+      </div>
+      <label class="select-label">Регион
+        <select data-region-select>
+          <option value="spb">Санкт-Петербург</option>
+          <option value="tatarstan">Республика Татарстан</option>
+          <option value="krasnodar">Краснодарский край</option>
+          <option value="novosibirsk">Новосибирская область</option>
+          <option value="krasnoyarsk">Красноярский край</option>
+          <option value="fareast">Дальний Восток</option>
+        </select>
+      </label>
+      <div class="region-result">
+        <article><span>направление</span><strong data-region-direction>Городская среда и транспорт</strong></article>
+        <article><span>проект</span><strong data-region-project>Инфраструктура для жизни</strong></article>
+        <article><span>что видно</span><strong data-region-effect>Маршруты, общественные пространства, связность</strong></article>
+      </div>
+    </section>
+
+    <section class="section practical-panel">
+      <div class="section-head">
+        <p class="eyebrow">Как искать региональные данные</p>
+        <h2>Сначала вопрос, потом источник</h2>
+        <p>На сайте показаны направления, а не официальный реестр объектов. Реальные данные нужно сверять на портале нацпроектов, в материалах Правительства РФ, региональных источниках и бюджетных данных.</p>
+      </div>
+      <div class="practical-grid">
+        <article><strong>Что спросить про транспорт?</strong><p>Какая дорога, маршрут или логистическая связь проверяется?</p></article>
+        <article><strong>Что спросить про экономику?</strong><p>Как направление связано с производством, занятостью или экспортом?</p></article>
+        <article><strong>Что спросить про экологию?</strong><p>Какой показатель, территория или мера указаны в источнике?</p></article>
+      </div>
+      <div class="source-actions">
+        <a class="button primary" href="data-sources.html">Проверить источники</a>
+        <a class="button secondary" href="https://budget.gov.ru/" target="_blank" rel="noopener">Смотреть бюджетные данные</a>
+        <a class="button secondary" href="https://национальныепроекты.рф/" target="_blank" rel="noopener">Открыть официальный портал</a>
+      </div>
+    </section>
+
+    <section class="section sector-grid">
+      <article><img class="media-img" src="../assets/images/city-transport.jpg" data-file="../assets/images/city-transport.jpg" alt=""><h3>Транспорт</h3><p>140 тыс. км опорной сети дорог как ориентир транспортной связности.</p></article>
+      <article><img class="media-img" src="../assets/images/tourism-hospitality.jpg" data-file="../assets/images/tourism-hospitality.jpg" alt=""><h3>Туризм</h3><p>140 млн туристических поездок к 2030 году как целевой ориентир.</p></article>
+      <article><img class="media-img" src="../assets/images/green-energy.jpg" data-file="../assets/images/green-energy.jpg" alt=""><h3>Экология</h3><p>пример направления: отходы, чистая среда и природные ресурсы.</p></article>
+      <article><img class="media-img" src="../assets/images/modern-materials-lab.jpg" data-file="../assets/images/modern-materials-lab.jpg" alt=""><h3>Промышленность</h3><p>Материалы, оборудование и кадры поддерживают отрасли.</p></article>
+      <article><img class="media-img" src="../assets/images/technology-robotics.jpg" data-file="../assets/images/technology-robotics.jpg" alt=""><h3>Технологии</h3><p>Данные, автоматизация и новые отрасли создают основу развития.</p></article>
+      <article><img class="media-img" src="../assets/images/health-technology-lab.jpg" data-file="../assets/images/health-technology-lab.jpg" alt=""><h3>Технологии здоровья</h3><p>Лаборатории, диагностика и медицинские технологии дополняют промышленный контур.</p></article>
+    </section>
+
+    <section class="section value-chain">
+      <div><strong>Кадры</strong><span>люди и навыки</span></div>
+      <div><strong>Производство</strong><span>оборудование и отрасли</span></div>
+      <div><strong>Транспорт</strong><span>маршруты и логистика</span></div>
+      <div><strong>Экспорт</strong><span>рынки и стандарты</span></div>
+      <div><strong>Данные</strong><span>сервисы и управление</span></div>
+      <div><strong>Технологии</strong><span>новые рынки</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Страница объединяет региональное развитие, инфраструктуру, экономику и технологии.</p>
+    <a href="data-sources.html">Источники</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-label="Региональная среда, дороги, транспорт, экология и туризм">
+  <rect width="960" height="560" fill="#e4f5ff"/>
+  <path d="M0 392c114-58 240-61 360-18 130 47 249 31 382-38 88-46 160-45 218-22v246H0Z" fill="#b9e5d4"/>
+  <rect x="84" y="178" width="112" height="210" rx="14" fill="#ffffff"/>
+  <rect x="224" y="132" width="150" height="256" rx="16" fill="#eaf5fb"/>
+  <rect x="418" y="202" width="124" height="186" rx="14" fill="#ffffff"/>
+  <rect x="594" y="156" width="174" height="232" rx="16" fill="#edf8f2"/>
+  <path d="M-20 484c194-78 342-88 486-60 109 21 220 61 458 8" fill="none" stroke="#17324d" stroke-width="52" stroke-linecap="round"/>
+  <path d="M38 478c154-49 288-60 420-38 104 17 209 52 410 12" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-dasharray="34 24"/>
+  <g fill="#20a675">
+    <circle cx="812" cy="334" r="44"/>
+    <rect x="802" y="332" width="20" height="92" rx="10"/>
+    <circle cx="870" cy="314" r="34"/>
+    <rect x="862" y="312" width="16" height="86" rx="8"/>
+  </g>
+  <rect width="960" height="560" fill="#0b1f35" opacity=".05"/>
+</svg>

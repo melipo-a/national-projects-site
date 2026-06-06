@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Медиа-зона: семья, образование, здоровье и жизненный маршрут">
+  <rect width="780" height="520" fill="#e8f8ef"/>
+  <path d="M0 390c103-45 212-44 318-10 122 40 239 32 376-30 36-16 64-18 86-12v182H0Z" fill="#bfe8d2"/>
+  <rect x="82" y="148" width="166" height="168" rx="22" fill="#fff"/>
+  <path d="M82 148h166v52H82Z" fill="#20a675"/>
+  <rect x="296" y="108" width="188" height="208" rx="24" fill="#fff"/>
+  <path d="M296 108h188v60H296Z" fill="#1769d2"/>
+  <rect x="536" y="154" width="158" height="162" rx="22" fill="#fff"/>
+  <path d="M596 186h34v38h38v34h-38v38h-34v-38h-38v-34h38Z" fill="#d9574f"/>
+  <g fill="#102a43">
+    <circle cx="315" cy="366" r="24"/>
+    <rect x="291" y="390" width="48" height="72" rx="24"/>
+    <circle cx="384" cy="344" r="30"/>
+    <rect x="354" y="374" width="60" height="90" rx="30"/>
+    <circle cx="452" cy="374" r="19"/>
+    <rect x="433" y="393" width="38" height="62" rx="19"/>
+  </g>
+  <rect width="780" height="520" fill="#071923" opacity=".06"/>
+</svg>

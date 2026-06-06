@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Медиа-зона: технологии, производство и экономика">
+  <rect width="780" height="520" fill="#eeeefe"/>
+  <path d="M0 386c98-34 197-32 302-7 126 31 237 27 376-24 46-17 82-18 102-8v173H0Z" fill="#e5e8f4"/>
+  <rect x="86" y="258" width="292" height="112" rx="16" fill="#fff"/>
+  <path d="M86 258h64v-58l76 58h50v-72l84 72h18v112H86Z" fill="#6b65b8"/>
+  <path d="M526 92c29 61 27 116 7 173l44-24 38 54 20-62 60-20-54-38 24-44c-57 20-112 22-173-7Z" fill="#1769d2"/>
+  <circle cx="590" cy="154" r="22" fill="#fff"/>
+  <path d="M472 330h150M548 270v132M500 296l96 82M596 296l-96 82" stroke="#102a43" stroke-width="9" stroke-linecap="round"/>
+  <rect width="780" height="520" fill="#071923" opacity=".06"/>
+</svg>

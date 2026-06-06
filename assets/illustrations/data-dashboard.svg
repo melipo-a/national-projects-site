@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Analytical dashboard and source library</title>
+  <desc id="desc">A detailed dashboard with big metrics, charts, source library shelves, budget cards and fact passports.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f3f7ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#17324d" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="760" rx="42" fill="url(#bg)"/>
+  <g filter="url(#sh)">
+    <rect x="80" y="86" width="940" height="560" rx="36" fill="#fff"/>
+    <rect x="118" y="128" width="286" height="198" rx="28" fill="#edf8f2"/>
+    <rect x="436" y="128" width="248" height="198" rx="28" fill="#fff3d7"/>
+    <rect x="716" y="128" width="266" height="198" rx="28" fill="#edf4ff"/>
+    <rect x="118" y="364" width="410" height="226" rx="28" fill="#f7fbff"/>
+    <rect x="560" y="364" width="422" height="226" rx="28" fill="#f7fbff"/>
+  </g>
+
+  <!-- 73 gauge -->
+  <path d="M186 250 a76 76 0 1 1 138 44" fill="none" stroke="#d7e8f2" stroke-width="24"/>
+  <path d="M186 250 a76 76 0 1 1 138 44" fill="none" stroke="#20a675" stroke-width="24" stroke-linecap="round" stroke-dasharray="330 470"/>
+  <text x="214" y="264" fill="#17324d" font-size="52" font-weight="700" font-family="Arial">73%</text>
+  <rect x="168" y="292" width="178" height="12" rx="6" fill="#d7e8f2"/>
+
+  <!-- budget bars -->
+  <rect x="486" y="256" width="34" height="42" fill="#f0a52b"/>
+  <rect x="540" y="212" width="34" height="86" fill="#f0a52b"/>
+  <rect x="594" y="170" width="34" height="128" fill="#f0a52b"/>
+  <path d="M470 298 h180" stroke="#17324d" stroke-width="8" stroke-linecap="round"/>
+  <text x="480" y="170" fill="#17324d" font-size="34" font-weight="700" font-family="Arial">40+</text>
+  <text x="548" y="170" fill="#17324d" font-size="22" font-family="Arial">трлн</text>
+
+  <!-- source hub -->
+  <circle cx="850" cy="224" r="58" fill="#eef4ff"/>
+  <circle cx="850" cy="224" r="14" fill="#1769d2"/>
+  <path d="M850 158 v132 M784 224 h132 M804 178 l92 92 M896 178 l-92 92" stroke="#1769d2" stroke-width="6" stroke-linecap="round"/>
+  <rect x="774" y="286" width="150" height="14" rx="7" fill="#d7e8f2"/>
+
+  <!-- source library -->
+  <g>
+    <rect x="162" y="418" width="54" height="128" rx="8" fill="#1769d2"/>
+    <rect x="230" y="398" width="54" height="148" rx="8" fill="#20a675"/>
+    <rect x="298" y="434" width="54" height="112" rx="8" fill="#f0a52b"/>
+    <rect x="366" y="408" width="54" height="138" rx="8" fill="#6b65b8"/>
+    <path d="M146 546 h300" stroke="#17324d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M176 446 h26 M244 430 h26 M312 458 h26 M380 436 h26" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- fact passport cards -->
+  <g>
+    <rect x="606" y="416" width="152" height="128" rx="20" fill="#fff" stroke="#d7e8f2" stroke-width="3"/>
+    <rect x="790" y="416" width="152" height="128" rx="20" fill="#fff" stroke="#d7e8f2" stroke-width="3"/>
+    <text x="632" y="466" fill="#d9574f" font-size="34" font-weight="700" font-family="Arial">13+</text>
+    <text x="816" y="466" fill="#d9574f" font-size="34" font-weight="700" font-family="Arial">78</text>
+    <rect x="632" y="498" width="82" height="10" rx="5" fill="#d7e8f2"/>
+    <rect x="632" y="518" width="104" height="10" rx="5" fill="#d7e8f2"/>
+    <rect x="816" y="498" width="82" height="10" rx="5" fill="#d7e8f2"/>
+    <rect x="816" y="518" width="104" height="10" rx="5" fill="#d7e8f2"/>
+  </g>
+
+  <g stroke="#17324d" stroke-width="5" opacity=".2" fill="none">
+    <path d="M404 226 C458 220 470 226 520 232"/>
+    <path d="M684 224 C724 222 762 224 792 224"/>
+    <path d="M528 478 C558 462 580 458 606 456"/>
+  </g>
+</svg>

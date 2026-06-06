@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Медиа-зона: карта смысловых контуров национальных проектов">
+  <rect width="780" height="520" fill="#eaf6ff"/>
+  <path d="M0 382c86-28 161-31 250-9 112 27 207 30 318-11 86-32 151-32 212-8v166H0Z" fill="#d9ece5"/>
+  <rect x="74" y="92" width="294" height="286" rx="30" fill="#fff"/>
+  <path d="M124 166c42-52 106-72 172-46 66 27 100 86 86 154-15 74-82 105-148 95-83-13-151-70-154-143-1-20 9-42 44-60Z" fill="#20a675" opacity=".85"/>
+  <path d="M396 110h254v106H396Z" fill="#1769d2" opacity=".88"/>
+  <path d="M396 238h254v106H396Z" fill="#f0a52b" opacity=".88"/>
+  <path d="M396 366h254v66H396Z" fill="#6b65b8" opacity=".88"/>
+  <path d="M456 162h128M456 292h98M456 404h126" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  <rect width="780" height="520" fill="#071923" opacity=".06"/>
+</svg>

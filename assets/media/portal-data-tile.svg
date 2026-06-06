@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Медиа-зона: аналитика, бюджет, источники и факты">
+  <rect width="780" height="520" fill="#edf5ff"/>
+  <rect x="64" y="70" width="652" height="314" rx="32" fill="#fff"/>
+  <rect x="104" y="112" width="238" height="214" rx="24" fill="#102a43"/>
+  <text x="136" y="207" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" fill="#fff">73%</text>
+  <rect x="136" y="250" width="154" height="18" rx="9" fill="#365a73"/>
+  <rect x="136" y="250" width="112" height="18" rx="9" fill="#41c28b"/>
+  <rect x="386" y="112" width="126" height="92" rx="18" fill="#fff1d4"/>
+  <rect x="538" y="112" width="126" height="92" rx="18" fill="#e5f8ee"/>
+  <rect x="386" y="234" width="278" height="92" rx="18" fill="#eaf4fb"/>
+  <rect x="418" y="274" width="42" height="34" rx="7" fill="#1769d2"/>
+  <rect x="482" y="254" width="42" height="54" rx="7" fill="#20a675"/>
+  <rect x="546" y="286" width="42" height="22" rx="7" fill="#f0a52b"/>
+  <path d="M98 430h584" stroke="#17324d" stroke-width="18" stroke-linecap="round" stroke-dasharray="80 34" opacity=".26"/>
+  <rect width="780" height="520" fill="#071923" opacity=".05"/>
+</svg>

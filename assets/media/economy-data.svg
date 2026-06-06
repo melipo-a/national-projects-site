@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-label="Экономика данных, цифровые сервисы, бизнес и логистика">
+  <rect width="960" height="560" fill="#f9f0d8"/>
+  <path d="M0 418c142-42 275-45 420-10 126 30 262 23 540-58v210H0Z" fill="#e8dfca"/>
+  <rect x="86" y="112" width="260" height="280" rx="28" fill="#ffffff"/>
+  <rect x="124" y="152" width="118" height="16" rx="8" fill="#17324d"/>
+  <rect x="124" y="210" width="44" height="112" rx="8" fill="#f0a52b"/>
+  <rect x="188" y="250" width="44" height="72" rx="8" fill="#20a675"/>
+  <rect x="252" y="190" width="44" height="132" rx="8" fill="#1769d2"/>
+  <rect x="426" y="134" width="132" height="214" rx="16" fill="#17324d"/>
+  <rect x="584" y="134" width="132" height="214" rx="16" fill="#17324d"/>
+  <path d="M464 184h58M464 224h58M464 264h58M622 184h58M622 224h58M622 264h58" stroke="#8fd1ff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="760" cy="360" r="62" fill="none" stroke="#1769d2" stroke-width="22"/>
+  <path d="M760 298a62 62 0 0 1 58 86" fill="none" stroke="#20a675" stroke-width="22" stroke-linecap="round"/>
+  <rect width="960" height="560" fill="#0b1f35" opacity=".05"/>
+</svg>

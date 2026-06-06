@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Семья во дворе у дома">
+  <rect width="720" height="420" fill="#e8f8ef"/>
+  <path d="M0 310c90-34 176-35 258-12 112 31 222 30 354-18 48-17 82-18 108-10v150H0Z" fill="#bfe8d2"/>
+  <rect x="76" y="118" width="170" height="168" rx="18" fill="#ffffff"/>
+  <path d="M76 118h170v48H76Z" fill="#20a675"/>
+  <rect x="112" y="190" width="42" height="42" rx="8" fill="#dceef7"/>
+  <rect x="168" y="190" width="42" height="42" rx="8" fill="#dceef7"/>
+  <g fill="#17324d">
+    <circle cx="360" cy="250" r="23"/>
+    <rect x="337" y="273" width="46" height="70" rx="23"/>
+    <circle cx="420" cy="234" r="28"/>
+    <rect x="392" y="262" width="56" height="84" rx="28"/>
+    <circle cx="478" cy="266" r="18"/>
+    <rect x="460" y="284" width="36" height="54" rx="18"/>
+  </g>
+  <circle cx="590" cy="250" r="42" fill="#20a675"/>
+  <rect x="580" y="250" width="20" height="86" rx="10" fill="#176d50"/>
+  <rect width="720" height="420" fill="#0b1f35" opacity=".05"/>
+</svg>

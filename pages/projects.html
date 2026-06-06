@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карта национальных проектов</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="На главную">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-text">Национальные<br>проекты</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="system.html">Система</a>
+      <a class="active" href="projects.html">Проекты</a>
+      <a href="human.html">Жизнь</a>
+      <a href="economy-regions.html">Регионы</a>
+      <a href="data-sources.html">Данные</a>
+    </nav>
+    <a class="header-action" href="data-sources.html">Проверить данные</a>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Карта проектов</p>
+        <h1>Карта проектов и региональных примеров</h1>
+        <p class="lead">Здесь проекты сгруппированы по смыслу: человек, среда и регионы, экономика, технологии. Карта показывает примеры направлений, а не полный официальный реестр объектов.</p>
+      </div>
+      <figure class="media-frame hero-media">
+        <img class="media-img" src="../assets/images/projects-map-regions.jpg" data-file="../assets/images/projects-map-regions.jpg" alt="Карта регионов">
+      </figure>
+      <div class="hero-dashboard">
+        <article><span>старт</span><strong>19</strong><p>проектов стартовали в 2025 году; структура обновляется</p></article>
+        <article><span>обновление</span><strong>2026</strong><p>добавлен проект по биоэкономике</p></article>
+        <article><span>контуры</span><strong>4</strong><p>человек, среда, экономика, технологии</p></article>
+        <article><span>цели</span><strong>7</strong><p>национальных целей</p></article>
+        <article><span>база</span><strong>56</strong><p>источников в исходном материале</p></article>
+      </div>
+    </section>
+
+    <section class="section utility-panel">
+      <div class="section-head">
+        <p class="eyebrow">Что здесь можно узнать</p>
+        <h2>Не список ради списка, а карта смысла</h2>
+      </div>
+      <div class="utility-grid">
+        <article><strong>Какие проекты есть</strong><p>Карточки показывают официальное название, понятное название и смысл направления.</p></article>
+        <article><strong>Как они сгруппированы</strong><p>Фильтры делят проекты на человека, среду и регионы, экономику и технологии.</p></article>
+        <article><strong>Как читать региональные примеры</strong><p>Точки на карте помогают понять проявления проектов, но не заменяют официальный реестр.</p></article>
+      </div>
+    </section>
+
+    <section class="section map-workspace" data-project-map>
+      <div class="map-intro">
+        <div>
+          <p class="eyebrow">Как пользоваться картой</p>
+          <h2>Выберите контур или точку</h2>
+          <p>Карта показывает примеры направлений, а не полный официальный реестр объектов. Если точка демонстрационная, она подписана как пример направления, а проверять ее нужно по официальным и региональным источникам.</p>
+        </div>
+        <aside class="map-status" aria-live="polite">
+          <span>сейчас показано</span>
+          <strong data-project-count>2</strong>
+          <p data-project-status>Показаны примеры и карточки про человека: семья, образование, здоровье, кадры. Карточек: 4.</p>
+        </aside>
+      </div>
+      <div class="map-toolbar">
+        <button type="button" data-project-filter="all">Все</button>
+        <button class="is-active" type="button" data-project-filter="human">Человек</button>
+        <button type="button" data-project-filter="regions">Среда и регионы</button>
+        <button type="button" data-project-filter="economy">Экономика</button>
+        <button type="button" data-project-filter="tech">Технологии</button>
+      </div>
+
+      <div class="map-layout">
+        <div class="russia-map" aria-label="Стилизованная карта региональных примеров">
+          <img class="media-img map-bg-image" src="../assets/images/russia-map-interface.jpg" data-file="../assets/images/russia-map-interface.jpg" alt="" aria-hidden="true">
+          <button class="map-point human is-active" style="left:22%;top:48%" type="button" data-map-contour="human" data-map-title="Новая школа" data-map-region="Казань" data-map-direction="Образование" data-map-national="Молодёжь и дети" data-map-result="Среда для обучения" data-map-effect="демонстрационный пример направления: современная образовательная среда рядом с семьей" data-map-source="Проверять: карточки проекта, материалы Правительства РФ и региональные источники" data-map-detail="Смысл точки — показать, как проект про молодежь и детей можно читать через школьную инфраструктуру, наставничество и образовательную среду." data-map-image="../assets/images/project-school.jpg">Казань</button>
+          <button class="map-point human" style="left:30%;top:52%" type="button" data-map-contour="human" data-map-title="Поликлиника" data-map-region="Тюмень" data-map-direction="Здравоохранение" data-map-national="Продолжительная и активная жизнь" data-map-result="Доступность помощи" data-map-effect="демонстрационный пример направления: первичная помощь, профилактика и маршрутизация пациента" data-map-source="Проверять: официальный паспорт проекта и региональные данные здравоохранения" data-map-detail="Смысл точки — связать здоровье не только с учреждением, но и с профилактикой, первичным звеном, реабилитацией и активным долголетием." data-map-image="../assets/images/project-hospital.jpg">Тюмень</button>
+          <button class="map-point regions" style="left:44%;top:58%" type="button" data-map-contour="regions" data-map-title="Инфраструктурный мост" data-map-region="Красноярск" data-map-direction="Инфраструктура" data-map-national="Инфраструктура для жизни" data-map-result="Связность территории" data-map-effect="демонстрационный пример направления: мосты, дороги и маршруты связывают район с услугами и рынками" data-map-source="Проверять: проектные документы, региональные программы и бюджетные данные" data-map-detail="Смысл точки — показать инфраструктуру как связность территории: дорога или мост важны не сами по себе, а как доступ к услугам, рынкам и маршрутам." data-map-image="../assets/images/project-bridge.jpg">Красноярск</button>
+          <button class="map-point economy" style="left:18%;top:64%" type="button" data-map-contour="economy" data-map-title="Агросектор" data-map-region="Краснодарский край" data-map-direction="Экономика и продовольствие" data-map-national="Эффективная и конкурентная экономика; Международная кооперация и экспорт; Технологическое обеспечение продовольственной безопасности" data-map-result="Производство и рынки" data-map-effect="демонстрационный пример направления: производство, переработка, логистика и экспорт" data-map-source="Проверять: материалы Правительства РФ, официальный портал проектов и бюджетные данные" data-map-detail="Смысл точки — показать, что агросектор связан не только с урожаем, но и с технологиями, переработкой, логистикой, экспортом и продовольственной безопасностью." data-map-image="../assets/images/economy-agriculture.jpg">Краснодар</button>
+          <button class="map-point regions" style="left:14%;top:42%" type="button" data-map-contour="regions" data-map-title="Городской транспорт" data-map-region="Санкт-Петербург" data-map-direction="Городская среда" data-map-national="Инфраструктура для жизни; Эффективная транспортная система" data-map-result="Удобство передвижения" data-map-effect="демонстрационный пример направления: общественный транспорт, маршруты, улицы и комфортная среда" data-map-source="Проверять: региональные программы, паспорт проекта и официальные материалы" data-map-detail="Смысл точки — показать, как транспорт и городская среда вместе влияют на ежедневный маршрут человека." data-map-image="../assets/images/city-transport.jpg">СПб</button>
+          <button class="map-point tech" style="left:52%;top:54%" type="button" data-map-contour="tech" data-map-title="Технологии и данные" data-map-region="Новосибирск" data-map-direction="Технологии" data-map-national="Экономика данных и цифровая трансформация государства; технологическое лидерство" data-map-result="Цифровые решения и кадры" data-map-effect="демонстрационный пример направления: сервисы, данные, исследовательские команды и технологические отрасли" data-map-source="Проверять: официальные проектные материалы, профильные ведомства и научную базу" data-map-detail="Смысл точки — показать, что данные, кадры, исследовательские команды и технологические отрасли образуют единый контур развития." data-map-image="../assets/images/technology-data-center.jpg">Новосибирск</button>
+          <button class="map-point regions" style="left:76%;top:62%" type="button" data-map-contour="regions" data-map-title="Транспортная связность" data-map-region="Дальний Восток" data-map-direction="Транспорт" data-map-national="Эффективная транспортная система" data-map-result="Доступность территорий" data-map-effect="демонстрационный пример направления: дороги, логистика, связь населенных пунктов и рынков" data-map-source="Проверять: официальный проект, региональные источники и данные реализации" data-map-detail="Смысл точки — показать транспорт как артерии страны: связность важна для людей, бизнеса, туризма и региональной доступности." data-map-image="../assets/images/regions-infrastructure.jpg">ДВ</button>
+        </div>
+
+        <aside class="project-detail">
+          <img class="media-img" data-project-image src="../assets/images/project-school.jpg" data-file="../assets/images/project-school.jpg" alt="">
+          <span data-project-direction>Образование</span>
+          <h3 data-project-title>Новая школа</h3>
+          <p><strong>Регион:</strong> <span data-project-region>Казань</span></p>
+          <p data-project-effect>демонстрационный пример направления: современная образовательная среда рядом с семьей</p>
+          <div class="detail-meta">
+            <p><strong>Связанный нацпроект:</strong> <span data-project-national>Молодёжь и дети</span></p>
+            <p><strong>Что можно проверить:</strong> <span data-project-result>Среда для обучения</span></p>
+            <p><strong>Источник проверки:</strong> <span data-project-source>Проверять: карточки проекта, материалы Правительства РФ и региональные источники</span></p>
+          </div>
+          <button class="button secondary" type="button" data-project-more-button>Подробнее</button>
+          <p class="detail-note" data-project-more hidden>Смысл точки — показать, как проект про молодежь и детей можно читать через школьную инфраструктуру, наставничество и образовательную среду.</p>
+          <a class="button secondary" data-project-link href="data-sources.html">Где проверить источники</a>
+        </aside>
+      </div>
+
+      <section class="project-catalog">
+        <div class="section-head">
+          <p class="eyebrow">Официальное и понятное название</p>
+          <h2>Проекты новой архитектуры</h2>
+          <p>Выберите контур выше. Карточки показывают официальное название, понятное объяснение и место проверки. По умолчанию открыт контур «Человек».</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-tile project-card" data-project-contour="human"><div class="project-media"><img class="media-img" src="../assets/images/family-support-service.jpg" data-file="../assets/images/family-support-service.jpg" alt=""></div><span>человек</span><h3>Семья</h3><p><strong>Понятно:</strong> поддержка семьи.</p><p>Помогает понять: семья, дети, старшее поколение.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="human"><div class="project-media"><img class="media-img" src="../assets/images/youth-children.jpg" data-file="../assets/images/youth-children.jpg" alt=""></div><span>человек</span><h3>Молодёжь и дети</h3><p><strong>Понятно:</strong> образование и самореализация.</p><p>Помогает понять: школа, наставничество, молодежные возможности.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="human"><span>человек</span><h3>Кадры</h3><p><strong>Понятно:</strong> профессии и рынок труда.</p><p>Помогает понять: навыки, переобучение, занятость.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="human"><div class="project-media"><img class="media-img" src="../assets/images/active-senior-life.jpg" data-file="../assets/images/active-senior-life.jpg" alt=""></div><span>человек</span><h3>Продолжительная и активная жизнь</h3><p><strong>Понятно:</strong> здоровье и долголетие.</p><p>Помогает понять: профилактика, активное старшее поколение.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+
+          <article class="project-tile project-card" data-project-contour="regions"><span>среда и регионы</span><h3>Инфраструктура для жизни</h3><p><strong>Понятно:</strong> жилье, дороги, дворы.</p><p>Помогает понять: среду вокруг человека и связность территории.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="regions"><div class="project-media"><img class="media-img" src="../assets/images/ecology-recycling.jpg" data-file="../assets/images/ecology-recycling.jpg" alt=""></div><span>среда и регионы</span><h3>Экологическое благополучие</h3><p><strong>Понятно:</strong> чистая среда.</p><p>Помогает понять: отходы, вода, леса и экологические меры.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="regions"><div class="project-media"><img class="media-img" src="../assets/images/tourism-hospitality.jpg" data-file="../assets/images/tourism-hospitality.jpg" alt=""></div><span>среда и регионы</span><h3>Туризм и гостеприимство</h3><p><strong>Понятно:</strong> путешествия по России.</p><p>Помогает понять: маршруты, сервисы, региональную экономику.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="regions"><div class="project-media"><img class="media-img" src="../assets/images/transport-train.jpg" data-file="../assets/images/transport-train.jpg" alt=""></div><span>среда и регионы</span><h3>Эффективная транспортная система</h3><p><strong>Понятно:</strong> транспортные артерии.</p><p>Помогает понять: дороги, логистику, доступность территорий.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+
+          <article class="project-tile project-card" data-project-contour="economy"><span>экономика и данные</span><h3>Эффективная и конкурентная экономика</h3><p><strong>Понятно:</strong> бизнес и производительность.</p><p>Помогает понять: рабочие места, инвестиции, рост.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="economy"><span>экономика и данные</span><h3>Международная кооперация и экспорт</h3><p><strong>Понятно:</strong> экспорт.</p><p>Помогает понять: рынки, логистику, стандарты и производство.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="economy"><span>экономика и данные</span><h3>Экономика данных и цифровая трансформация государства</h3><p><strong>Понятно:</strong> экономика данных.</p><p>Помогает понять: цифровые сервисы, ИТ-кадры, безопасность.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+
+          <article class="project-tile project-card" data-project-contour="tech"><div class="project-media"><img class="media-img" src="../assets/images/modern-materials-lab.jpg" data-file="../assets/images/modern-materials-lab.jpg" alt=""></div><span>технологии</span><h3>Новые материалы и химия</h3><p><strong>Понятно:</strong> материалы и химия.</p><p>Помогает понять: основу промышленности и медицины.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><div class="project-media"><img class="media-img" src="../assets/images/machine-tools-factory.jpg" data-file="../assets/images/machine-tools-factory.jpg" alt=""></div><span>технологии</span><h3>Средства производства и автоматизации</h3><p><strong>Понятно:</strong> станки.</p><p>Помогает понять: оборудование, роботизацию, независимость.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><span>технологии</span><h3>Промышленное обеспечение транспортной мобильности</h3><p><strong>Понятно:</strong> производство транспорта.</p><p>Помогает понять: выпуск транспорта и комплектующих.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><span>технологии</span><h3>Беспилотные авиационные системы</h3><p><strong>Понятно:</strong> беспилотники.</p><p>Помогает понять: новую отрасль, кадры, регулирование.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><div class="project-media"><img class="media-img" src="../assets/images/space-technology.jpg" data-file="../assets/images/space-technology.jpg" alt=""></div><span>технологии</span><h3>Развитие космической деятельности</h3><p><strong>Понятно:</strong> космос.</p><p>Помогает понять: связь, навигацию, наблюдение, технологии.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><span>технологии</span><h3>Новые атомные и энергетические технологии</h3><p><strong>Понятно:</strong> новая энергетика.</p><p>Помогает понять: энергетический контур технологического суверенитета.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><div class="project-media"><img class="media-img" src="../assets/images/health-technology-lab.jpg" data-file="../assets/images/health-technology-lab.jpg" alt=""></div><span>технологии</span><h3>Новые технологии сбережения здоровья</h3><p><strong>Понятно:</strong> технологии здоровья.</p><p>Помогает понять: исследования, оборудование, диагностику.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><span>технологии</span><h3>Технологическое обеспечение продовольственной безопасности</h3><p><strong>Понятно:</strong> продовольственные технологии.</p><p>Помогает понять: селекцию, агротехнологии, переработку.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+          <article class="project-tile project-card" data-project-contour="tech"><span>технологии</span><h3>Технологическое обеспечение биоэкономики</h3><p><strong>Понятно:</strong> биоэкономика.</p><p>Помогает понять: обновление структуры проектов в 2026 году.</p><div class="project-card-footer"><em>официальный проект</em><a href="https://национальныепроекты.рф/new-projects/" target="_blank" rel="noopener">Где проверить</a></div></article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Региональные точки показаны как демонстрационные примеры направлений, если нет точного подтвержденного объекта.</p>
+    <a href="data-sources.html">Источники</a>
+  </footer>
+</body>
+</html>

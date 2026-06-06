@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Семья, школа и медицина в городском пространстве">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff7ee"/>
+      <stop offset="1" stop-color="#fff3d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)"/>
+  <path d="M0 318c82-28 152-31 230-12 90 22 166 24 260-10 86-30 151-28 230-4v128H0Z" fill="#c8eadb"/>
+  <rect x="70" y="138" width="140" height="148" rx="16" fill="#ffffff"/>
+  <path d="M70 138h140v42H70Z" fill="#20a675"/>
+  <rect x="254" y="92" width="162" height="194" rx="18" fill="#ffffff"/>
+  <path d="M254 92h162v52H254Z" fill="#1769d2"/>
+  <rect x="466" y="132" width="152" height="154" rx="16" fill="#ffffff"/>
+  <path d="M526 164h32v34h34v32h-34v34h-32v-34h-34v-32h34Z" fill="#d9574f"/>
+  <g fill="#17324d">
+    <circle cx="268" cy="324" r="20"/>
+    <rect x="248" y="344" width="40" height="58" rx="20"/>
+    <circle cx="322" cy="310" r="24"/>
+    <rect x="298" y="334" width="48" height="68" rx="24"/>
+    <circle cx="374" cy="330" r="16"/>
+    <rect x="358" y="346" width="32" height="48" rx="16"/>
+  </g>
+  <path d="M40 354h640" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-dasharray="34 22" opacity=".9"/>
+  <rect width="720" height="420" fill="#0b1f35" opacity=".05"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Медиа-зона: архитектура системы национальных проектов">
+  <defs><linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#dff2ff"/><stop offset="1" stop-color="#f3f8e8"/></linearGradient></defs>
+  <rect width="780" height="520" fill="url(#a)"/>
+  <path d="M0 390c96-44 201-46 306-12 112 36 215 24 332-34 58-29 102-30 142-16v192H0Z" fill="#c9e6d8"/>
+  <path d="M128 168 390 82l262 86v244H128Z" fill="#fff" opacity=".95"/>
+  <path d="M128 168 390 82l262 86v48H128Z" fill="#1769d2"/>
+  <rect x="174" y="246" width="430" height="38" rx="9" fill="#edf7fb"/>
+  <rect x="174" y="304" width="430" height="38" rx="9" fill="#eaf8ef"/>
+  <rect x="174" y="362" width="430" height="38" rx="9" fill="#fff1d4"/>
+  <path d="M222 264h150M222 322h212M222 380h124" stroke="#17324d" stroke-width="12" stroke-linecap="round"/>
+  <rect width="780" height="520" fill="#071923" opacity=".06"/>
+</svg>

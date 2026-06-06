@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-label="Аналитическая панель с графиками, бюджетом, источниками и паспортами фактов">
+  <rect width="960" height="560" fill="#eef5ff"/>
+  <path d="M0 450c136-42 266-42 392-10 148 38 286 32 568-44v164H0Z" fill="#dbe8f1"/>
+  <rect x="72" y="72" width="816" height="334" rx="30" fill="#ffffff"/>
+  <rect x="104" y="110" width="332" height="250" rx="22" fill="#17324d"/>
+  <text x="136" y="190" font-family="Arial, sans-serif" font-size="76" font-weight="700" fill="#ffffff">73%</text>
+  <rect x="138" y="232" width="228" height="18" rx="9" fill="#dceef7"/>
+  <rect x="138" y="232" width="166" height="18" rx="9" fill="#20a675"/>
+  <rect x="476" y="110" width="172" height="116" rx="20" fill="#fff4dd"/>
+  <rect x="684" y="110" width="172" height="116" rx="20" fill="#e8f8ef"/>
+  <rect x="476" y="250" width="380" height="110" rx="20" fill="#eef7fb"/>
+  <rect x="512" y="294" width="56" height="42" rx="8" fill="#1769d2"/>
+  <rect x="592" y="270" width="56" height="66" rx="8" fill="#20a675"/>
+  <rect x="672" y="306" width="56" height="30" rx="8" fill="#f0a52b"/>
+  <rect x="752" y="282" width="56" height="54" rx="8" fill="#d9574f"/>
+  <g fill="#17324d">
+    <rect x="510" y="148" width="86" height="12" rx="6"/>
+    <rect x="510" y="176" width="62" height="10" rx="5" opacity=".55"/>
+    <rect x="718" y="148" width="86" height="12" rx="6"/>
+    <rect x="718" y="176" width="62" height="10" rx="5" opacity=".55"/>
+  </g>
+  <rect x="146" y="432" width="190" height="82" rx="20" fill="#ffffff"/>
+  <rect x="386" y="432" width="190" height="82" rx="20" fill="#ffffff"/>
+  <rect x="626" y="432" width="190" height="82" rx="20" fill="#ffffff"/>
+  <path d="M182 474h116M422 474h116M662 474h116" stroke="#1769d2" stroke-width="12" stroke-linecap="round"/>
+  <rect width="960" height="560" fill="#0b1f35" opacity=".04"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Производство, космос, беспилотники и технологическое лидерство">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef0ff"/>
+      <stop offset=".58" stop-color="#e9f7ff"/>
+      <stop offset="1" stop-color="#fff1d5"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)"/>
+  <path d="M0 342c92-34 168-30 254-10 109 26 211 21 326-22 54-20 98-19 140-5v115H0Z" fill="#e8edf8"/>
+  <rect x="74" y="210" width="276" height="116" rx="12" fill="#ffffff"/>
+  <path d="M74 210h56v-48l54 48h52v-62l72 62h42v116H74Z" fill="#6b65b8"/>
+  <rect x="108" y="246" width="52" height="44" rx="8" fill="#ffffff" opacity=".9"/>
+  <rect x="184" y="246" width="52" height="44" rx="8" fill="#ffffff" opacity=".9"/>
+  <path d="M470 78c24 52 25 106 6 162l42-20 34 48 18-54 54-18-48-34 20-42c-56 19-110 18-162-6Z" fill="#1769d2"/>
+  <circle cx="524" cy="132" r="18" fill="#ffffff"/>
+  <g stroke="#17324d" stroke-width="6" stroke-linecap="round">
+    <path d="M464 250h106M517 204v92M486 224l62 52M548 224l-62 52"/>
+  </g>
+  <circle cx="610" cy="92" r="28" fill="#f0a52b"/>
+  <rect width="720" height="420" fill="#0b1f35" opacity=".06"/>
+</svg>

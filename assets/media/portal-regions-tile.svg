@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-label="Медиа-зона: город, дороги, транспорт и регионы">
+  <rect width="780" height="520" fill="#dff3ff"/>
+  <path d="M0 356c102-56 213-59 320-18 114 43 216 28 344-40 52-28 88-29 116-16v238H0Z" fill="#b9e2d3"/>
+  <rect x="74" y="160" width="92" height="196" rx="14" fill="#fff"/>
+  <rect x="190" y="104" width="136" height="252" rx="16" fill="#edf7fb"/>
+  <rect x="366" y="180" width="110" height="176" rx="14" fill="#fff"/>
+  <rect x="518" y="132" width="158" height="224" rx="16" fill="#effaf4"/>
+  <path d="M-30 446c174-76 315-87 457-55 104 23 212 70 383 25" fill="none" stroke="#17324d" stroke-width="48" stroke-linecap="round"/>
+  <path d="M38 438c130-40 252-52 377-31 98 17 194 56 340 25" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-dasharray="34 24"/>
+  <rect width="780" height="520" fill="#071923" opacity=".06"/>
+</svg>
